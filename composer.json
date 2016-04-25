@@ -1,0 +1,29 @@
+{
+    "name": "sonic/attachment_position",
+    "description": "Plugin for moving attachment pane above the message window",
+    "keywords": ["compose","attachment"],
+    "homepage": "https://github.com/dapphp/Roundcube-Plugin-attachment_position",
+    "license": "BSD-3-Clause",
+    "type": "roundcube-plugin",
+    "authors": [
+        {
+            "name": "Drew Phillips",
+            "email": "drew.phillips@sonic.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7",
+        "roundcube/plugin-installer": ">=0.1.2"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "1.1-beta"
+        }
+    }
+}
