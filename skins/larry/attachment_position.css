@@ -1,0 +1,36 @@
+div#composeheaders > div#compose-attachments {
+	position: relative;
+	width: auto;
+	display: block;
+	background-position: center;
+	background-size: contain;
+}
+
+div#composeheaders > div#compose-attachments div {
+	float: left;
+    margin-right: 15px;
+}
+
+div#composeheaders > div#compose-attachments ul#attachment-list li {
+	margin-right: 20px;
+	max-width: 120px;
+	display: inline-block;
+}
+
+div#composeheaders > div#compose-attachments div#aria-label-composeattachments {
+	display: none;
+}
+
+#composebodycontainer.attachment_position {
+	right: 0px;
+}
+
+div#compose-attachments span.arrow {
+	width: 18px;
+	height: 16px;
+	margin: 5px 10px 0 0;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	background: url(../../../../skins/larry/images/buttons.png) -2px -242px no-repeat;
+}

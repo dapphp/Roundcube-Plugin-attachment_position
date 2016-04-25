@@ -1,0 +1,6 @@
+<?php
+
+// Position of the add attachments pane:
+// empty | 'default' - To the right of the message input
+// 'top'             - Above the message input, below the To and Subject inputs
+$config['attachment_position'] = 'default';
