@@ -12,17 +12,29 @@ and drop attachments, and see a full list of files attached to the message.
 
 Install
 -------
-Manually from download:
+Manual download:
 
-* Place this plugin folder into the `plugins/` directory of Roundcube
+* Download the latest stable release of this plugin
+* Save it to a directory called `attachment_position`
+* Place the folder into the `plugins/` directory of Roundcube
 * Add an element `attachment_positions` to the `$config['plugins']` setting
 in your Roundcube `config/config.inc.php` file.
 
 Using composer:
 
 * Edit `composer.json` in the root directory where Roundcube is installed
-* In the `require` section, add `"dapphp/attachment_position": ">=1.0.0`
+* In the `require` section, add `"sonic/attachment_position": "~1.0"`
 * See the [Roundcube plugins][rcplugins] site for more information.
+
+Usage
+-----
+When the plugin is activated, a small up arrow icon is dynamically added to the
+attachments pane when composing a message.  Clicking this moves the attachment
+pane above the message composition window.
+
+Users can permanently set this behavior by going to **Settings** >>
+**Preferences** >> **Composing Messages** and setting the option labeled:
+*Location of attachments pane* to *above the message composition window*.
 
 Important Skin Information
 --------------------------
@@ -34,10 +46,15 @@ for your skin in the `attachment_position/skins` directory pointing to larry
 (e.g. `ln -s larry yourskin`).  If this step is not taken, the plugin will not
 load the appropriate CSS and Javascript files when composing a message.
 
-License
--------
-This plugin is released under the [BSD-3 license][bsd-3].  See the included
-`LICENSE` file for details.
+Screenshots
+-----------
+![attachment pane above message](http://drew.phillips.users.sonic.net/img/roundcube_attachment_position-2.png "Attachments Pane")
+![settings](http://drew.phillips.users.sonic.net/img/roundcube_attachment_position-3.png "Position setting")
+
+Copyright
+---------
+Copyright (c) 2016 Sonic.net, Inc.  This software is released under the
+[BSD-3 license][bsd-3].  See the included `LICENSE` file for details.
  
 [bsd-3]: https://opensource.org/licenses/BSD-3-Clause
 [rcplugins]: https://plugins.roundcube.net/
