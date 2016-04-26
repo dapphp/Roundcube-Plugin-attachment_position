@@ -7,7 +7,7 @@
     "type": "roundcube-plugin",
     "authors": [
         {
-            "name": "Drew Phillips",
+            "name": "Drew Phillips", 
             "email": "dapphp@sonic.net"
         }
     ],
