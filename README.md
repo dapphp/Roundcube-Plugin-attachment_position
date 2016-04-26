@@ -10,11 +10,6 @@ for the user to choose to move the attachment pane to the position above the
 message window (similar to Roundcube 0.9.x) but still have the ability to drag
 and drop attachments, and see a full list of files attached to the message.
 
-License
--------
-This plugin is released under the [BSD-3 license][bsd-3].  See the included
-`LICENSE` file for details.
-
 Install
 -------
 Manually from download:
@@ -39,6 +34,10 @@ for your skin in the `attachment_position/skins` directory pointing to larry
 (e.g. `ln -s larry yourskin`).  If this step is not taken, the plugin will not
 load the appropriate CSS and Javascript files when composing a message.
 
+License
+-------
+This plugin is released under the [BSD-3 license][bsd-3].  See the included
+`LICENSE` file for details.
  
 [bsd-3]: https://opensource.org/licenses/BSD-3-Clause
 [rcplugins]: https://plugins.roundcube.net/
