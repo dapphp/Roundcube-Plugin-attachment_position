@@ -23,8 +23,8 @@ in your Roundcube `config/config.inc.php` file.
 Using composer:
 
 * Edit `composer.json` in the root directory where Roundcube is installed
-* In the `require` section, add `"sonic/attachment_position": "~1.0"`
-* See the [Roundcube plugins][rcplugins] site for more information.
+* In the `require` section, add `"sonic/attachment_position": "~1.1"`
+* See the [Roundcube plugins][rcplugins] site for more information.  
 
 Usage
 -----
