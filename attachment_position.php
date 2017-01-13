@@ -4,7 +4,7 @@
  * Roundcube attachment_position Plugin
  *
  * @copyright Copyright (c) 2016 Sonic.net, Inc. (https://www.sonic.com)
- * @author Drew Phillips <drew.phillips@sonic.com>
+ * @author Drew Phillips <dapphp@sonic.net>
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  */
 

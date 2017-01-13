@@ -8,7 +8,7 @@ div#composeheaders > div#compose-attachments {
 
 div#composeheaders > div#compose-attachments div {
 	float: left;
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 div#composeheaders > div#compose-attachments ul#attachment-list li {
